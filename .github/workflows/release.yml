@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Release Please (Full)
         id: release
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
 
   prerelease:
     name: Prerelease (RC)
@@ -28,6 +28,6 @@ jobs:
     steps:
       - name: Release Please (Prerelease)
         id: release
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
         with:
           config-file: release-please-prerelease-config.json
