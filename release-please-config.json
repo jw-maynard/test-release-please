@@ -1,4 +1,5 @@
 {
+  "bootstrap-sha": "6e533117eb44a10a639606a5a01a5cc854502567",
   "include-component-in-tag": false,
   "release-type": "terraform-module"
 }
